@@ -9,11 +9,11 @@ for (var i = 1; i <= iterations; i++) {
     var buzz = i % 5 === 0 
 
     //imposto le condizioni che il ciclo deve rispettare per eseguire la corretta numerazione
-    if ((fizz === true) && (buzz === true)) {
+    if ((fizz) && (buzz)) {
         numbers += "fizzBuzz \n" 
-    } else if (fizz === true) {
+    } else if (fizz) {
         numbers += "fizz \n"
-    } else if (buzz === true) {
+    } else if (buzz) {
         numbers += "buzz \n"
     } else {
         numbers +=  i + " ";
